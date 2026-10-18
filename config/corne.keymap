@@ -8,6 +8,14 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
+&mt {
+    tapping-term-ms = <240>;
+};
+
+&lt {
+    tapping-term-ms = <240>;
+};
+
 /*
  * Assign the cs-gpios pin to 16.
  * Uncomment these next few lines if implementing nice!view Displays
